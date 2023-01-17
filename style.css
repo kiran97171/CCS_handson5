@@ -1,0 +1,214 @@
+body{
+    background-color: yellow;
+   
+}
+.num{
+    
+    padding-top: 100px;
+    padding-right:50px ;
+}
+.box{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@keyframes sample{
+    0%{
+        transform: skew(-30deg);
+    }
+    100%{
+        transform: skew(30deg);
+    }
+}
+@keyframes sample1{
+    0%{
+        transform: skewY(30deg);
+    }
+    100%{
+        transform: skewY(-30deg);
+    }  
+}
+@keyframes sample3{
+    0%{
+        transform:rotate(90deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }  
+}
+@keyframes sample4{
+    0%{
+        transform:scale(1,1)
+    }
+    100%{
+        transform:scale(1,0.5);
+    }  
+}
+@keyframes sample5{
+    0%{
+        transform:scale(0.6,1)
+    }
+    100%{
+        transform:scale(1,1);
+    }  
+}
+
+
+.box1{
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+    border: 2px solid purple ;
+    margin-top: 20px;
+    margin-right: 40px;
+    animation-name: sample;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+
+}
+.box2{
+    width: 80px;
+    height: 80px;
+    background-color: darkgray;
+    border: 2px solid darkgray ;
+    margin-top: 20px;
+    margin-right: 40px;
+    animation-name: sample1;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.box3{
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+    border: 2px solid purple ;
+    margin-top: 20px;
+    margin-right: 40px;
+    animation-name: sample3;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.box4{
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+    border: 2px solid purple ;
+    margin-top: 20px;
+    margin-right: 40px;
+    animation-name: sample4;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.box5{
+    width: 80px;
+    height: 80px;
+    background-color:red;
+    border: 2px solid red ;
+    margin-top: 20px;
+    margin-right: 40px;
+    animation-name: sample5;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.box6{
+    width: 80px;
+    height: 80px;
+    background-color:green;
+    border: 2px solid green ;
+    margin-top: 20px;
+    margin-right: 40px;
+    animation-name: sample3;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+h1{
+    text-align: center;
+}
+.lets{
+    margin-top: 50px;
+}
+a{
+    font-size: 30px;
+    color: purple;
+    margin-left: 480px;
+}
+.back a{
+    font-size: 30px;
+    color: purple;
+    margin-left: 550px;  
+}
+.next{
+    margin-top: 10px;
+}
+.next a{
+    font-size: 30px;
+    color: purple;
+    margin-left: 550px;
+
+}
+
+.try{
+    font-size: 30px;
+    color: purple;
+    margin-left: 440px;
+    font-weight: bolder; 
+
+}
+.top{
+   margin-left: 500px;
+}
+.box21{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border: 2px solid green;
+    margin-top: 30px;
+    transition-duration: 3s;
+}
+.one:hover{
+    width: 300px;
+    height:80px ;
+
+}
+.two:hover{
+    width: 300px;
+    height: 300px;
+}
+.three:hover{
+    width: 300px;
+    height: 80px;
+    transition-timing-function: ease;
+}
+.four:hover{
+    width: 300px;
+    height: 80px;
+    transition-timing-function: ease-in;
+}
+.five:hover{
+    width: 300px;
+    height: 80px;
+    transition-timing-function: ease-out;
+}
+.six:hover{
+    width: 300px;
+    height: 80px;
+    transition-timing-function: ease-in-out;
+}
+.seven:hover:hover{
+    width: 300px;
+    height: 80px;
+    transition-timing-function: linear;
+}
